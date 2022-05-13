@@ -5,7 +5,7 @@ import (
 	"gorm.io/gorm"
 )
 
-const DNS = "root:Team@1000@tcp(db:3306)/rpay"
+const DNS = "anirudh:Team@1000@tcp(34.125.173.65:3306)/rpay"
 
 var (
 	db *gorm.DB
